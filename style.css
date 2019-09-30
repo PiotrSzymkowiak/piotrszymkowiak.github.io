@@ -1,3 +1,24 @@
 body {
     background-color: dimgrey;
 }
+
+.tilesContainer {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.gameContainer {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.gamePlayButton {
+    background-color: aqua;
+    width: 100%;
+    height: 25%;
+}

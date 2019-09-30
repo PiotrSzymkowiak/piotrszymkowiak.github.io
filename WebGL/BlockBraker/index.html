@@ -3,29 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Laser Defender</title>
+    <title>Unity WebGL Player | Block Breaker</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div id="gameContainer" style="width: 800px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Laser Defender</div>
-        <div style="background-color: lightgrey; text-align: center;">
-            <h2>How to play?</h2>
-            <ul style="list-style: none">             
-              <li><b>Arrows</b> - Movement</li>
-              <li><b>Space</b> - Attack</li>          
-            </ul>
-          </div>
+        <div class="title">Block Breaker</div>
       </div>
     </div>
   </body>
