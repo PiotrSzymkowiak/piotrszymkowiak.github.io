@@ -4,7 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;    
     color: #64c2e7;
-    margin: 20px
+    margin: 20px;
+    font-family: Lato;
 }
 
 a {
