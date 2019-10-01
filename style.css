@@ -1,24 +1,54 @@
 body {
-    background-color: dimgrey;
+    background-color: #161616;
+    background-image: url('img/csharp_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: #64c2e7;
+    margin: 20px
+}
+
+a {
+    text-decoration: none;
+    color: #00a9e9;
 }
 
 .tilesContainer {
-    align-content: center;
+    opacity: 0.85;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around;
     width: 100%;
-    height: 500px;
-    background-color: black;
+    height: auto;
 }
 
 .gameContainer {
-    background-color: cornflowerblue;
-    width: 200px;
-    height: 100px;
+    background-color: #262626;
+    width: 400px;
+    height: 300px;
     float: left;
+    margin: 5px;
+    border-radius: 5%;
 }
 
 .gamePlayButton {
-    background-color: aqua;
+    background-color: #333333;
+    display: table;
+    text-align: center;
     width: 100%;
     height: 25%;
+}
+
+.gamePlayButton > a {
+    color: #64c2e7;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.textBar{
+    text-align: center;
+    vertical-align: middle;
 }
