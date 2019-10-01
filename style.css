@@ -1,6 +1,6 @@
 body {
     background-color: #161616;
-    background-image: url('img/csharp_wallpaper.jpg');
+    background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-size: cover;    
     color: #64c2e7;
@@ -28,7 +28,9 @@ a {
     height: 300px;
     float: left;
     margin: 5px;
-    border-radius: 5%;
+    border-radius: 15%;
+    border: 2px solid black;
+    overflow: hidden;
 }
 
 .gamePlayButton {
@@ -37,6 +39,7 @@ a {
     text-align: center;
     width: 100%;
     height: 25%;
+    border-bottom: 2px solid black;
 }
 
 .gamePlayButton > a {
@@ -48,7 +51,17 @@ a {
     font-weight: bolder;
 }
 
+.gamePlayButton:hover {
+    background-color: #434343
+}
+
 .textBar{
     text-align: center;
     vertical-align: middle;
 }
+
+.notActive {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;  
+  }
