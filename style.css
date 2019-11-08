@@ -13,6 +13,10 @@ a {
     color: #00a9e9;
 }
 
+a:hover{
+    color: #76d8ff
+}
+
 .tilesContainer {
     opacity: 0.85;
     display: flex;
